@@ -146,9 +146,9 @@ if __name__ == '__main__':
 			speak("Here you go to Stack Over flow. Solve your queries")
 			webbrowser.open("www.stackoverflow.com") 
 
-		# elif 'open youtube' or 'youtube' in query:
-		# 	speak("Here you go to Youtube\n")
-		# 	webbrowser.open("https://www.youtube.com")
+		elif 'open youtube' or 'youtube' in query:
+			speak("Here you go to Youtube\n")
+			webbrowser.open("https://www.youtube.com")
 
 		elif 'play music' in query or "play song" in query:
 			speak("Here you go with music")
@@ -259,8 +259,8 @@ if __name__ == '__main__':
 			ctypes.windll.user64.SystemParametersInfoW(20, 0, "Location of wallpaper",0)
 			speak("Background changed succesfully")
 
-		# elif 'open bluestack' in query:
-		# 	appli = r"C:\\ProgramData\\BlueStacks\\Client\\Bluestacks.exe"
+		# elif 'open code' in query or 'vs code' in query:
+		# 	appli = r"C:\\ProgramData\\vsCode\\Client\\Bluestacks.exe"
 		# 	os.startfile(appli)
 
 		elif 'news' in query:
